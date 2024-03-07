@@ -3,7 +3,8 @@
 ## Pasos previos
 Pasos previos a la integración del sistema de subida asíncrona:
 - Registrarse en [Cloudinary](https://www.cloudinary.com) para obtener los tres datos necesarios de identificación que se muestran en el vídeo.
-- Instalar en el servidor de Express las dependencias `cloudinary`, `multer` y `multer-storage-cloudinary`
+- Instalar en el servidor de Express las dependencias `cloudinary@1`, `multer` y `multer-storage-cloudinary`
+- ATENCIÓN: instalar cloudinary en su versión 1: `npm i cloudinary@1`
 
 ## Grabación de la integración
 Disponible [en este enlace](https://drive.google.com/file/d/1pnRLK_7eLuUoMJnjeHw0Pl2RlCGZ2-nl/preview)

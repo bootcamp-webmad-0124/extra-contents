@@ -45,7 +45,7 @@ Obtener las coordenadas a través de los métodos de la dependencia:
 ````javascript
 const handleAutocomplete = () => {
 
-  addressValue && geocodeByAddress(addressValue?.label)
+  addressValue.label && geocodeByAddress(addressValue?.label)
     .then(([addressDetails]) => getLatLng(addressDetails))
     .then((coordinates) => {
       console.log('LAS COORDENADAS', coordinates)
